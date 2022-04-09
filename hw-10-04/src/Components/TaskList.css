@@ -1,0 +1,33 @@
+img { 
+    width: 20px;
+    cursor: pointer;
+    padding-left: 60px;
+}
+
+.NewTaskContainer {
+    margin: 24px 6px;
+}
+
+.inputask {
+    margin-top: 16px;
+    height: 32px;
+    width: 200px;
+    border: 1px solid #00000087;
+    border-radius: 6px;
+}
+
+.inputask::placeholder {
+    padding-left: 8px;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+
+.addtask {
+    margin-left: 16px; 
+    height: 36px;
+    padding: 0 23px;   
+    background-color: rgb(24, 43, 121);
+    color:aliceblue;
+    border: none;
+    border-radius: 6px;
+}

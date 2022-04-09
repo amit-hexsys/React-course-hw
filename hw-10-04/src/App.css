@@ -1,0 +1,14 @@
+.html {
+    background-color: #fcfaf7;
+    color: #1c1c1c;
+    font-size: 62.5%;
+}
+
+.App {
+    margin: 16px;
+}
+
+.App-title {
+    font-size: 36px;
+    margin-bottom: 16px;
+}

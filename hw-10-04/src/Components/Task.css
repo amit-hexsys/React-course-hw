@@ -1,0 +1,7 @@
+.Task {
+    display: inline;
+}
+
+.Task.checked {
+    text-decoration: line-through;
+}

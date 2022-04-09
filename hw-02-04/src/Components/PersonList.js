@@ -8,7 +8,7 @@ const PersonList = (props) => {
             <div className='PersonListContainer'>
                 <Person name="Daniel" city="TLV" gender="Male👨🏻" />
                 <Person name="Noa" city="Jesusalem" gender="Female👩🏻" />
-                <Person name="Dan" city="Netanya" gender="Male 👨🏻" />
+                <Person name="Dan" city="Netanya" gender="Male👨🏻" />
             </div>
         </>
     );
