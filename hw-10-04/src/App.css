@@ -1,14 +1,18 @@
-.html {
-    background-color: #fcfaf7;
+body {
+    background-color: #fffff3;
     color: #1c1c1c;
     font-size: 62.5%;
 }
 
 .App {
     margin: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 .App-title {
+    font-family: 'Grape Nuts', cursive;
     font-size: 36px;
     margin-bottom: 16px;
+    color: rgb(24, 43, 121);
 }

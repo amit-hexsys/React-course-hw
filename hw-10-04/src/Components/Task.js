@@ -10,7 +10,7 @@ const Task = (props) => {
             type="checkbox"
             onChange={($event) => setIsChecked($event.target.checked)}
             checked={isChecked} />
-            <span>{props.todo}</span>
+            <span className="task-text">{props.todo}</span>
         </div>
     );
 }

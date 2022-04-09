@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 
 const TaskList = (props) => {
     const [tasks, setTasks] = useState([
-        { todo: "Take the dog out1", id: 0 },
-        { todo: "Take the dog out2", id: 1 },
-        { todo: "Take the dog out3", id: 2 },
+        { todo: "Take the dog out", id: 0 },
+        { todo: "Do homework", id: 1 },
+        { todo: "Learn for math test", id: 2 },
     ]);
 
     const AddTask = (todo) => {
@@ -26,7 +26,7 @@ const TaskList = (props) => {
             <div className='TaskListContainer'>
                 {
                     tasks && tasks.map(task =>
-                        <div key={task.id}>
+                        <div className="task-item" key={task.id}>
                             <Task todo={task.todo} />
                             <img src={process.env.PUBLIC_URL + "x-icon.svg"} onClick={() => RemoveTask(task.id)} />
                             <br />
@@ -35,7 +35,8 @@ const TaskList = (props) => {
                 }
             </div>
             <div className='NewTaskContainer'>
-                <span>Type a new task:
+                <span id="labeladd">Type a new task:</span>
+                <span>
                     <br/>
                     <input className="inputask" type="text" placeholder="What you need to do?" value={input} onInput={$event =>setInput($event.target.value) } />
                 </span>

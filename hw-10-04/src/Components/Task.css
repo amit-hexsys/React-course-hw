@@ -5,3 +5,7 @@
 .Task.checked {
     text-decoration: line-through;
 }
+
+.task-text {
+    margin-left: 4px;
+}
