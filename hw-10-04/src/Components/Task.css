@@ -1,5 +1,5 @@
 .Task {
-    display: inline;
+    display: inline-block;
 }
 
 .Task.checked {

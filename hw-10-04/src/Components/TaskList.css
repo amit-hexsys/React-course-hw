@@ -39,7 +39,12 @@ img {
 }
 
 .task-item {
+    
     margin-bottom: 4px;
+}
+
+.Task {
+    width: 275px;
 }
 
 #labeladd {

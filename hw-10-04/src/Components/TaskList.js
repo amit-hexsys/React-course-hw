@@ -27,7 +27,7 @@ const TaskList = (props) => {
                 {
                     tasks && tasks.map(task =>
                         <div className="task-item" key={task.id}>
-                            <Task todo={task.todo} />
+                            <Task className="task-text" todo={task.todo} />
                             <img src={process.env.PUBLIC_URL + "x-icon.svg"} onClick={() => RemoveTask(task.id)} />
                             <br />
                         </div>
