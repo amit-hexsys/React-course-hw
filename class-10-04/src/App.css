@@ -1,0 +1,14 @@
+.capContainer {
+  padding: 16px;
+  background-color: rgb(215, 215, 250);
+}
+
+.counterContainer {
+  padding: 16px;
+  background-color: rgb(246, 215, 250);
+}
+
+.printNamesContainer {
+  padding: 16px;
+  background-color: rgb(250, 231, 215);
+}
