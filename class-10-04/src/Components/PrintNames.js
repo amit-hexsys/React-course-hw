@@ -16,7 +16,7 @@ const PrintNames = ({ persons, ...props }) => {
  
     return (
         <>
-            <label>Search :</label>
+            <label>Search: </label>
             <input onChange={onSearchValueChange} type="text"></input>
             { filteredPersons.length === 0 ?
                 <p>No persons in array.</p> :

@@ -12,3 +12,14 @@
   padding: 16px;
   background-color: rgb(250, 231, 215);
 }
+
+
+.parentContainer, .child  {
+  display: inline-block;
+  padding: 16px;
+  background-color: rgb(231, 254, 241);
+}
+
+.parentContainer {
+  width: 100%;
+}
