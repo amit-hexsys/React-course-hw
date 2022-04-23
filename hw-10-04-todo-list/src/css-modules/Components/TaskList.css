@@ -1,0 +1,74 @@
+.TaskListContainer, .NewTaskContainer {
+    padding-left: 64px;
+}
+
+.task-delete {
+    width: 20px;
+    cursor: pointer;
+    padding-left: 8px;
+    vertical-align: middle;
+    visibility: hidden;
+}
+
+.task-item:hover .task-delete {
+    visibility: visible;
+}
+
+.NewTaskContainer {
+    margin: 24px 6px;
+
+}
+
+.inputask {
+    height: fit-content;
+    width: 300px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #0000005a;
+    padding-left: 3px;
+    padding-bottom: 8px;
+}
+
+.inputask::placeholder {
+    color: #828282;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.32;
+
+}
+
+.addtask {
+    margin-left: 16px;
+    height: 40px;
+    padding: 10px 32px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    background-color: rgb(24, 43, 121);
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+}
+
+.task-item {
+    margin-bottom: 4px;
+    width: fit-content;
+}
+
+#labeladd {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.todo-title {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #1c1c1c;
+}

@@ -1,0 +1,26 @@
+.header {
+    height: 100px;
+    margin-bottom: 64px;
+    padding: 20px 0 20px 64px;
+    background-color: #0e1649;
+    display: flex;
+    align-items: center;
+}
+
+.apptitle {
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: left;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+}
+
+.logoimg {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    display: inline-block;
+    margin-right: 8px;
+}
