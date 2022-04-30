@@ -54,6 +54,7 @@ export const Button = styled.button`
         --secondary: #1AB6D9;
         --success: #18AE00;
         --error: #B90000;
+        
     }  
 
     &:active {
@@ -98,6 +99,7 @@ export const Button = styled.button`
             --secondary: #1AB6D9;
             --success: #18AE00;
             --error: #B90000;
+            background-color: rgba(0,0,0, 0.02);
         }  
 
         &:active {
@@ -105,6 +107,7 @@ export const Button = styled.button`
             --secondary: #74DCF3;
             --success: #60D84C;
             --error: #E13E3E;
+            background-color: rgba(0,0,0, 0.05);
         }     
     `};
 
@@ -136,6 +139,7 @@ export const Button = styled.button`
             --secondary: #1AB6D9;
             --success: #18AE00;
             --error: #B90000;
+            background-color: rgba(0,0,0, 0.02);
         }  
 
         &:active {
@@ -143,6 +147,7 @@ export const Button = styled.button`
             --secondary: #74DCF3;
             --success: #60D84C;
             --error: #E13E3E;
+            background-color: rgba(0,0,0, 0.05);
         }
     `};
 `;
