@@ -17,6 +17,7 @@ const StyledTitle= styled.h4`
     font-family: Arial;
     font-size: 16px;
     line-height: 1.69;
+    font-weight: normal;
     color: #1c1c1c;
 `;
 
@@ -33,6 +34,7 @@ const StyledContent = styled.div`
     font-family: Arial;
     font-size: 18px;
     line-height: 1.5;
+    font-weight: normal;
     color: #1c1c1c;
 `;
 
